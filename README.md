@@ -3,7 +3,7 @@
 > End-to-end financial analytics system featuring PostgreSQL, Tableau, Python automation, and advanced SQL
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18-blue)
 ![Tableau](https://img.shields.io/badge/Tableau-Public-orange)
 
 ---
