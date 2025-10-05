@@ -1,0 +1,11 @@
+budget_id,category_name,budget_amount,budget_period,start_date,is_active
+1,Rent/Mortgage,2000.00,monthly,2025-10-01,t
+2,Utilities,150.00,monthly,2025-10-01,t
+3,Gas/Fuel,200.00,monthly,2025-10-01,t
+4,Car Insurance,150.00,monthly,2025-10-01,t
+5,Groceries,600.00,monthly,2025-10-01,t
+6,Restaurants,300.00,monthly,2025-10-01,t
+7,Coffee Shops,100.00,monthly,2025-10-01,t
+8,Health Insurance,400.00,monthly,2025-10-01,t
+9,Streaming Services,50.00,monthly,2025-10-01,t
+10,Gym/Fitness,80.00,monthly,2025-10-01,t
