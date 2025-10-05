@@ -12,7 +12,7 @@
 
 A comprehensive personal finance analytics solution that transforms transaction data into actionable insights through interactive dashboards, automated reporting, and advanced data analysis.
 
-**Live Dashboard:** [View on Tableau Public](#) ← Add your link here
+**Live Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/vinay.jogani/viz/Book1_17596201871960/Dashboard5) ← Add your link here
 
 ---
 
@@ -50,7 +50,7 @@ A comprehensive personal finance analytics solution that transforms transaction 
 
 | Component | Technology |
 |-----------|------------|
-| Database | PostgreSQL 15 |
+| Database | PostgreSQL 18 |
 | Languages | Python 3.13, SQL |
 | Visualization | Tableau Public |
 | Libraries | pandas, psycopg2, matplotlib, reportlab |
@@ -74,7 +74,7 @@ financial-dashboard/
 ## Quick Start
 
 ### Prerequisites
-- PostgreSQL 15+
+- PostgreSQL 18+
 - Python 3.8+
 - pip packages: `psycopg2-binary pandas faker`
 
@@ -82,7 +82,7 @@ financial-dashboard/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/financial-dashboard.git
+git clone https://github.com/VinayJogani14/financial-dashboard.git
 cd financial-dashboard
 ```
 
@@ -148,19 +148,6 @@ From analyzing 1,754 transactions over 12 months:
 
 ---
 
-## Screenshots
-
-### Executive Summary Dashboard
-![Executive Summary](03_dashboards/screenshots/01_executive_summary.png)
-
-### Spending Analysis
-![Spending Analysis](03_dashboards/screenshots/02_spending_analysis.png)
-
-### Budget Performance
-![Budget Performance](03_dashboards/screenshots/03_budget_performance.png)
-
----
-
 ## Database Schema
 
 **7 Core Tables:**
@@ -201,16 +188,4 @@ FROM transactions t JOIN stats s USING (category_id)
 WHERE ABS((t.amount - s.avg) / s.stddev) > 2;
 ```
 
----
 
-## Future Enhancements
-
-- [ ] Machine learning for spending predictions
-- [ ] Real-time bank API integration
-- [ ] Mobile app development
-- [ ] Multi-currency support
-- [ ] Tax optimization features
-
----
-
-**⭐ If this project helped you, please give it a star!**
